@@ -6,5 +6,5 @@ This repository is a personal space for practicing data analysis. It includes sm
 
 - Practice notebooks for different datasets
 - Small scripts for loading, cleaning, and transforming data
-- Experiments with charts, models, and statistics
-- Notes and examples to track learning progress
+- 📊 Experiments with charts, models, and statistics
+- 📝 Notes and examples to track learning progress
