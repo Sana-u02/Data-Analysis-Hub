@@ -1,4 +1,4 @@
-# Data Analysis Hub
+# 📊 Data Analysis Hub
 
 This repository contains multiple data analysis projects focused on data cleaning, exploratory analysis, feature engineering, and predictive modeling. Each project is structured to demonstrate practical analytical workflows and clear insight generation.
 
