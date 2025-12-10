@@ -1,5 +1,5 @@
-# Netflix Data Analysis & Content Clustering
-This project explores the Netflix Movies and TV Shows dataset to uncover patterns and trends. It includes Exploratory Data Analysis (EDA) and content clustering to understand relationships between titles, genres, directors, and durations.
+# Netflix Data Analysis & Recommendation System
+This project explores the Netflix Movies and TV Shows dataset to uncover patterns and trends. It includes Exploratory Data Analysis (EDA) and a content based recommendation system that suggests similar titles using text features.
 
 ## Dataset
 
@@ -10,21 +10,21 @@ Source: [Netflix Movies and TV Shows dataset (Kaggle)](https://www.kaggle.com/da
 ## Analysis Covered
 
 * Content Types: Movies vs TV Shows distribution
-* Top Genres & Categories
-* Country-wise Content Production
+* Top Genres and Categories
+* Country wise Content Production
 * Release Trends Across Years
-* Ratings Breakdown & Duration Patterns
+* Ratings Breakdown and Duration Patterns
 
 
 
 ## Key Insights
 
-* Most content comes from the United States, followed by India and other countries.
-* TV Shows are increasingly popular in recent years.
-* Certain genres dominate, e.g., dramas and comedies.
-* Top directors and actors appear frequently across multiple titles.
-* Movie durations mostly range from 80–120 minutes.
-* Clustering reveals natural groupings of content that can inform recommendations.
+* Most titles come from the United States, followed by India and other countries.
+* TV Show releases have increased in recent years.
+* Popular genres include dramas, comedies, documentaries, and thrillers.
+* Certain directors and actors appear repeatedly across titles.
+* Movies commonly fall within the 80 to 120 minute range.
+* The recommendation system uses text similarity to suggest related titles.
 
 ## Technologies & Libraries
 
@@ -35,13 +35,13 @@ Source: [Netflix Movies and TV Shows dataset (Kaggle)](https://www.kaggle.com/da
 
 ## Usage
 
-* Load the dataset and preprocess missing values.
-* Perform EDA to explore distributions, trends, and correlations.
-* Apply clustering algorithms to group similar content.
-* Visualize clusters and analyze patterns.
+* Load and clean the dataset.
+* Run EDA to understand patterns and trends.
+* Build the recommendation system using text features such as title, genre, and description.
+* Input any show or movie to get a list of similar titles.
 
 ## Potential Extensions
 
-* Build a content-based recommendation system using cluster info.
-* Include user ratings or preferences for personalized suggestions.
-* Predict popularity or ratings using machine learning models.
+* Add clustering with genre and duration features.
+* Include user ratings for personalized recommendations.
+* Predict content categories or popularity using machine learning models.
